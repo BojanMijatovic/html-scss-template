@@ -1,4 +1,28 @@
 .header {
   display: flex;
   justify-content: space-between;
+  background: $background-color;
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__img {
+      padding: 0.5rem;
+    }
+
+    &__brand {
+      padding: 0.5rem;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+    }
+  }
+
+  .nav {
+    display: none;
+
+    &__btn {
+      padding: 0.5rem;
+    }
+  }
 }

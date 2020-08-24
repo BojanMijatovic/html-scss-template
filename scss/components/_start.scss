@@ -1,0 +1,37 @@
+.start {
+  padding: 1rem;
+  background: linear-gradient(to right, #7ad1f3, #791727);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    color: $background-color;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+  }
+
+  &__description {
+    color: $text-color;
+    font-size: 1.5rem;
+  }
+  &__description span {
+    color: $background-color;
+  }
+
+  &__btn {
+    text-decoration: none;
+    color: $white;
+    font-size: 1.3rem;
+    border: solid $white 1px;
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+    width: 85vw;
+    text-align: center;
+  }
+}
