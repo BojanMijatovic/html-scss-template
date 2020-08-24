@@ -1,0 +1,59 @@
+.academy {
+  background: linear-gradient(#96e5ff, $white);
+  &__title {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: $background-color;
+
+    h2 {
+      color: $text-second-color;
+      font-size: 1.8rem;
+    }
+
+    h3 {
+      margin: 0 auto;
+      border-bottom: $text-second-color 1px solid;
+      width: 35%;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__courses {
+    display: flex;
+    flex-direction: column;
+  }
+  &__course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    &-img {
+      padding: 1.5rem;
+      width: 50vw;
+      height: 30vh;
+      border-radius: 50%;
+    }
+
+    &-title {
+      color: $text-second-color;
+      font-size: 1.5rem;
+    }
+    &-subtitle {
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+    &-description {
+      padding: 2rem 1rem 1rem;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+
+    &-btn {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: $text-second-color;
+      border-bottom: $text-second-color solid 1px;
+    }
+  }
+}

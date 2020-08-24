@@ -97,4 +97,47 @@ html {
     width: 85vw;
     text-align: center; }
 
+.academy {
+  background: linear-gradient(#96e5ff, #fff); }
+  .academy__title {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f3f3f3; }
+    .academy__title h2 {
+      color: #791727;
+      font-size: 1.8rem; }
+    .academy__title h3 {
+      margin: 0 auto;
+      border-bottom: #791727 1px solid;
+      width: 35%;
+      font-size: 1.5rem; }
+  .academy__courses {
+    display: flex;
+    flex-direction: column; }
+  .academy__course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem; }
+    .academy__course-img {
+      padding: 1.5rem;
+      width: 50vw;
+      height: 30vh;
+      border-radius: 50%; }
+    .academy__course-title {
+      color: #791727;
+      font-size: 1.5rem; }
+    .academy__course-subtitle {
+      font-size: 1.4rem;
+      font-weight: 600; }
+    .academy__course-description {
+      padding: 2rem 1rem 1rem;
+      text-align: center;
+      font-size: 1.2rem; }
+    .academy__course-btn {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #791727;
+      border-bottom: #791727 solid 1px; }
+
 /*# sourceMappingURL=main.css.map */
