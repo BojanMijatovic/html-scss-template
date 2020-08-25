@@ -94,7 +94,7 @@ html {
     border: solid #fff 1px;
     padding: 0.4rem;
     border-radius: 0.8rem;
-    width: 85vw;
+    width: 90vw;
     text-align: center; }
 
 .academy {
@@ -140,19 +140,52 @@ html {
       color: #791727;
       border-bottom: #791727 solid 1px; }
 
-.portfolio {
-  background: linear-gradient(#96e5ff, #fff); }
-  .portfolio__title {
+.portfolio__title {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #fff; }
+  .portfolio__title h2 {
+    color: #791727;
+    font-size: 1.8rem; }
+  .portfolio__title h3 {
+    margin: 0 auto;
+    border-bottom: #791727 1px solid;
+    width: 35%;
+    font-size: 1.5rem; }
+.portfolio__project {
+  background: linear-gradient(to bottom, #96e5ff, #fff);
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .portfolio__project-img img {
+    width: 100%;
+    height: 45vh; }
+  .portfolio__project-text {
+    padding-left: 1.5rem; }
+  .portfolio__project-title h3 {
+    color: #791727;
+    font-size: 1.5rem; }
+  .portfolio__project-title h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 1rem; }
+  .portfolio__project-description {
+    padding-right: 2rem;
+    font-size: 1.2rem;
+    line-height: 1; }
+  .portfolio__project-btn {
+    margin: 1.5rem 0;
+    text-decoration: none;
+    color: #791727;
+    font-size: 1.3rem;
+    border: solid #791727 1px;
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+    width: 90vw;
     text-align: center;
-    padding: 2rem 0;
-    background-color: #f3f3f3; }
-    .portfolio__title h2 {
-      color: #791727;
-      font-size: 1.8rem; }
-    .portfolio__title h3 {
-      margin: 0 auto;
-      border-bottom: #791727 1px solid;
-      width: 35%;
-      font-size: 1.5rem; }
+    text-transform: uppercase; }
+    .portfolio__project-btn:active, .portfolio__project-btn:hover {
+      background-color: #791727;
+      color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
