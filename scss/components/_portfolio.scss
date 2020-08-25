@@ -1,0 +1,20 @@
+.portfolio {
+  background: linear-gradient(#96e5ff, $white);
+  &__title {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: $background-color;
+
+    h2 {
+      color: $text-second-color;
+      font-size: 1.8rem;
+    }
+
+    h3 {
+      margin: 0 auto;
+      border-bottom: $text-second-color 1px solid;
+      width: 35%;
+      font-size: 1.5rem;
+    }
+  }
+}

@@ -140,4 +140,19 @@ html {
       color: #791727;
       border-bottom: #791727 solid 1px; }
 
+.portfolio {
+  background: linear-gradient(#96e5ff, #fff); }
+  .portfolio__title {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f3f3f3; }
+    .portfolio__title h2 {
+      color: #791727;
+      font-size: 1.8rem; }
+    .portfolio__title h3 {
+      margin: 0 auto;
+      border-bottom: #791727 1px solid;
+      width: 35%;
+      font-size: 1.5rem; }
+
 /*# sourceMappingURL=main.css.map */
