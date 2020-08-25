@@ -34,7 +34,8 @@ html {
   .hero__text {
     margin: 2.5rem 0 0 2rem; }
     .hero__text-subtitle {
-      margin-bottom: 1.5rem; }
+      margin-bottom: 1.5rem;
+      font-size: 1.5rem; }
   .hero__title {
     font-size: 2.8rem;
     line-height: 1.5; }
@@ -171,8 +172,7 @@ html {
     padding-bottom: 1rem; }
   .portfolio__project-description {
     padding-right: 2rem;
-    font-size: 1.2rem;
-    line-height: 1; }
+    font-size: 1.2rem; }
   .portfolio__project-btn {
     margin: 1.5rem 0;
     text-decoration: none;
@@ -182,8 +182,7 @@ html {
     padding: 0.4rem;
     border-radius: 0.8rem;
     width: 90vw;
-    text-align: center;
-    text-transform: uppercase; }
+    text-align: center; }
     .portfolio__project-btn:active, .portfolio__project-btn:hover {
       background-color: #791727;
       color: #fff; }
@@ -198,7 +197,7 @@ html {
   .testimonial__title h3 {
     margin: 0 auto;
     border-bottom: #791727 1px solid;
-    width: 35%;
+    width: 40%;
     font-size: 1.5rem; }
 .testimonial__list {
   display: flex;
@@ -258,6 +257,14 @@ html {
         font-size: 1.4rem; }
         .footer__list-item a:active, .footer__list-item a:hover {
           font-weight: 600; }
+  .footer__links-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    color: #fff; }
+    .footer__links-list i {
+      margin: 1rem;
+      cursor: pointer; }
   .footer__form {
     display: flex;
     flex-direction: column;
@@ -284,5 +291,10 @@ html {
         .footer__form form button:active, .footer__form form button:hover {
           color: #791727;
           background-color: #fff; }
+  .footer p {
+    text-align: center;
+    padding-top: 1rem;
+    color: #fff;
+    font-size: 1.2rem; }
 
 /*# sourceMappingURL=main.css.map */
