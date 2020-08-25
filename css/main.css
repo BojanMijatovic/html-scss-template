@@ -188,4 +188,52 @@ html {
       background-color: #791727;
       color: #fff; }
 
+.testimonial__title {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #fff; }
+  .testimonial__title h2 {
+    color: #791727;
+    font-size: 1.8rem; }
+  .testimonial__title h3 {
+    margin: 0 auto;
+    border-bottom: #791727 1px solid;
+    width: 35%;
+    font-size: 1.5rem; }
+.testimonial__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0; }
+.testimonial__item {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  .testimonial__item .fas {
+    color: #afb3b6; }
+  .testimonial__item-title {
+    color: #791727;
+    font-size: 1.5rem; }
+  .testimonial__item-description {
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    color: #060606;
+    line-height: 1.4; }
+  .testimonial__item-info {
+    display: flex;
+    flex-direction: column; }
+    .testimonial__item-info img {
+      width: 50vw;
+      height: 30vh;
+      border-radius: 50%; }
+    .testimonial__item-info .testimonial__item-author {
+      font-size: 1.3rem;
+      color: #791727;
+      padding: 1.2rem; }
+      .testimonial__item-info .testimonial__item-author span {
+        color: #060606;
+        font-weight: 600; }
+
 /*# sourceMappingURL=main.css.map */
